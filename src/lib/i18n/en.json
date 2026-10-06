@@ -1,0 +1,433 @@
+{
+  "common": {
+    "action": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "close": "Close",
+      "confirm": "Confirm",
+      "back": "Back",
+      "retry": "Retry",
+      "copy": "Copy",
+      "copied": "Copied",
+      "download": "Download",
+      "preview": "Preview",
+      "delete": "Delete",
+      "resend": "Resend",
+      "send": "Send",
+      "clear": "Clear",
+      "export": "Export",
+      "more": "More",
+      "all": "All",
+      "edit": "Edit",
+      "view": "View",
+      "go": "Go",
+      "processing": "Working…"
+    },
+    "status": {
+      "confirmed": "Confirmed",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered"
+    },
+    "emptyTitle": "No data yet",
+    "notFound": "Nothing found",
+    "currency": "Currency"
+  },
+"nav": {
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "converter": "Order converter",
+    "assistant": "AI Assistant",
+    "logistics": "Logistics",
+    "billing": "Pricing",
+    "settings": "Settings",
+    "newOrder": "New order",
+    "workspace": "Workspace",
+    "cmdHint": "Commands",
+    "upgrade": "Upgrade plan",
+    "online": "AI online",
+    "toggleTheme": "Toggle theme"
+  },
+  "workspace": {
+    "personal": "Personal account",
+    "company": "Company",
+    "switchWorkspace": "Switch workspace",
+    "addWorkspace": "New workspace",
+    "workspaces": "Workspaces"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Sign in to your Bizflow account",
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember me",
+      "signIn": "Sign in",
+      "noAccount": "No account?",
+      "signUp": "Sign up",
+      "sessionExpired": "Session expired. Please sign in again."
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Get started in a minute",
+      "login": "Login",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign up",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "verify": {
+      "title": "Verify email",
+      "subtitleRegister": "We sent a 6-digit code to your email",
+      "subtitleLogin": "Enter the code to sign in",
+      "code": "Verification code",
+      "verify": "Verify code",
+      "resend": "Resend code",
+      "resendIn": "Resend in {{sec}}s",
+      "demoNotice": "Demo mode: code — {{code}}. In production the code is sent to your email.",
+      "tapToFill": "Tap to fill",
+      "back": "Go back",
+      "sendCode": "Send code"
+    },
+    "errors": {
+      "required": "Field is required",
+      "invalidEmail": "Invalid email",
+      "weakPassword": "Password must be at least 6 characters",
+      "emailTaken": "This email is already registered",
+      "notFound": "User not found",
+      "invalidCredentials": "Invalid login or password",
+      "notVerified": "Email is not verified yet",
+      "invalidCode": "Invalid code",
+      "expiredCode": "Code expired. Request a new one",
+      "tooManyAttempts": "Too many attempts. Try again later",
+      "otpSent": "Code sent",
+      "generic": "Something went wrong. Try again",
+      "unauthorized": "Authentication required",
+      "sessionEnded": "Session ended"
+    },
+    "signOut": "Sign out",
+    "demoMode": "Demo mode"
+  },
+  "dash": {
+    "hello": "Good afternoon, {{name}}",
+    "subtitle": "Workspace metrics are computed from real orders",
+    "kpi": {
+      "revenue": "Revenue",
+      "orders": "Orders",
+      "timeSaved": "Time saved",
+      "avgOrder": "Avg order"
+    },
+    "period30": "Last 30 days",
+    "noOrders": {
+      "title": "No orders yet",
+      "desc": "Process a message in the converter or create an order via chat — the dashboard updates instantly.",
+      "cta": "Create first order"
+    },
+    "recentOrders": "Recent orders",
+    "viewAll": "View all",
+    "quickActions": "Quick actions",
+    "generateReport": "Generate report",
+    "gotoBilling": "Upgrade plan",
+    "tip": {
+      "title": "About the product",
+      "body": "Bizflow works offline — it parses Telegram, WhatsApp and voice notes even without internet."
+    },
+    "noDataValue": "—",
+    "ordersCount": "orders",
+    "hoursUnit": "h"
+  },
+  "orders": {
+    "title": "Orders",
+    "subtitle": "Orders aggregated from every channel",
+    "exportCsv": "Export CSV",
+    "exportedCsv": "CSV file ready",
+    "empty": {
+      "title": "No orders yet",
+      "desc": "After you process a message in the converter or create an order via the chat bridge, it will appear here.",
+      "cta": "Go to converter"
+    },
+    "col": {
+      "invoice": "Invoice",
+      "customer": "Customer",
+      "items": "Items",
+      "source": "Channel",
+      "total": "Total",
+      "status": "Status",
+      "createdAt": "Time",
+      "actions": "Actions"
+    },
+    "chat": {
+      "title": "Customer chat (bridge)",
+      "desc": "Telegram/WhatsApp simulation — your sent message becomes an order",
+      "placeholder": "Type a customer message…",
+      "quick1": "3 bags Premium Coffee, Samarkand, +998934567890",
+      "quick2": "2 Dried Figs + 4 Green Tea, Fergana",
+      "quick3": "How much is Pomegranate Juice?"
+    },
+    "channel": {
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "voice": "Voice",
+      "manual": "Manual"
+    },
+    "statusFilter": "Status:",
+    "statusAll": "All statuses",
+    "search": "Search by customer, phone or invoice…",
+    "actions": "Actions",
+    "more": "more",
+    "remove": "Delete",
+    "removed": "Order deleted",
+    "filters": {
+      "all": "All",
+      "confirmed": "Confirmed",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered"
+    }
+  },
+  "conv": {
+    "title": "Order converter",
+    "subtitle": "Turn a message in any language into a structured order",
+    "message": "Customer message",
+    "placeholder": "Paste a message… e.g. «Assalomu alaykum! 5 jar Organic Honey, Chorsu. +998901234567»",
+    "engineLocal": "Local AI",
+    "engineLlm": "LLM API",
+    "processing": "Analyzing…",
+    "process": "Process with AI",
+    "clear": "Clear",
+    "samples": "Samples",
+    "steps": {
+      "1": "Analyzing message intent",
+      "2": "Extracting items & quantities",
+      "3": "Locating delivery address",
+      "4": "Parsing contact details",
+      "5": "Computing totals"
+    },
+    "empty": {
+      "title": "Awaiting result",
+      "desc": "Process a message for export and CRM records"
+    },
+    "orderReady": "Order ready",
+    "savedToOrders": "Saved to orders",
+    "field": {
+      "customer": "Customer",
+      "phone": "Phone",
+      "location": "Location",
+      "source": "Channel",
+      "confidence": "Confidence",
+      "total": "Total"
+    },
+    "download": "PDF invoice",
+    "preview": "Preview",
+    "copyJson": "Copy JSON",
+    "jsonCopied": "JSON copied",
+    "llmFallback": "AI_API_KEY not set — local AI used",
+    "llmModel": "Via live LLM: {{model}}",
+    "processor": "Processing engine",
+    "assistantReply": {
+      "title": "AI response"
+    },
+    "shareWhatsApp": "Share via WhatsApp",
+    "shareTelegram": "Share via Telegram"
+  },
+  "bill": {
+    "title": "Plans & payments",
+    "subtitle": "Payment providers: Payme, Click, Paynet (UZS) and Stripe, Google Play (USD)",
+    "currency": "Currency",
+    "perMonth": "/mo",
+    "current": "Current plan",
+    "choose": "Choose",
+    "plans": {
+      "starter": "Starter",
+      "growth": "Growth",
+      "scale": "Scale",
+      "enterprise": "Enterprise"
+    },
+    "feat": {
+      "orders200": "200 orders/mo",
+      "orders2k": "2,000 orders/mo",
+      "orders5k": "5,000 orders/mo",
+      "ordersU": "Unlimited orders",
+      "team3": "Team (3 seats)",
+      "team10": "Team (10 seats)",
+      "teamU": "Unlimited team",
+      "invoices": "PDF invoices",
+      "analytics": "Core analytics",
+      "reports": "Full reports",
+      "api": "Open API",
+      "sla": "SLA guarantee",
+      "priority": "Priority support",
+      "brands": "Multi-brand"
+    },
+    "oneTime": {
+      "title": "One-time payment",
+      "desc": "Top up your balance by any amount via Payme, Click or Stripe",
+      "topUp": "Top up balance",
+      "amount": "Amount"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "plan": "Plan",
+      "amount": "Amount due",
+      "provider": "Payment method",
+      "payNow": "Pay",
+      "processing": "Processing payment…",
+      "success": {
+        "title": "Payment successful",
+        "desc": "Your plan is active. Note: this is demo mode; the real charge goes through the provider API."
+      },
+      "done": "Done"
+    },
+    "provider": {
+      "payme": "Payme",
+      "click": "Click",
+      "paynet": "Paynet",
+      "stripe": "Stripe",
+      "googleplay": "Google Play"
+    },
+    "trial": {
+      "title": "7-day free trial",
+      "active": "{{days}} days of trial left",
+      "inactive": "Start a 7-day free trial by binding a card",
+      "start": "Start trial (bind card)",
+      "reactivate": "Resume trial",
+      "expiredTitle": "Trial expired",
+      "expiredDesc": "Choose a plan to keep using the service",
+      "choosePlan": "Choose a plan"
+    },
+    "vip": {
+      "title": "VIP account",
+      "desc": "Lifetime unlimited access — no trial or payment needed"
+    },
+    "gate": {
+      "title": "Plan required",
+      "desc": "Your trial has ended. Choose a plan to continue",
+      "blockedTrial": "Trial expired — upgrade your plan",
+      "choosePlan": "Go to Pricing",
+      "demoBadge": "demo",
+      "help": "Access resumes once any plan is activated"
+    },
+    "banner": {
+      "trial": "{{days}} days of trial left",
+      "prompt": "A 7-day free trial is waiting for you",
+      "renew": "Extend",
+      "reactivate": "Activate trial",
+      "useTrial": "Start trial"
+    },
+    "history": {
+      "title": "Payment history",
+      "empty": "No payments yet",
+      "charge": "Subscription charge"
+    },
+    "demoNote": "Demo mode: no real charge."
+  },
+  "set": {
+    "title": "Settings",
+    "subtitle": "Profile, appearance and preferences",
+    "profile": "Profile",
+    "name": "Name",
+    "login": "Login",
+    "email": "Email",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "language": "Language",
+    "currencyDefault": "Default currency",
+    "danger": "Danger zone",
+    "clearData": "Clear all demo data",
+    "cleared": "Data cleared",
+    "saved": "Settings saved",
+    "general": "General"
+  },
+  "notif": {
+    "title": "Notifications",
+    "markAll": "Mark all as read",
+    "new": "New",
+    "clearAll": "Clear all",
+    "empty": "No notifications",
+    "exportPdf": {
+      "title": "PDF downloaded",
+      "desc": "Invoice {{invoice}} exported"
+    },
+    "orderParsed": {
+      "title": "New order",
+      "desc": "{{invoice}} for {{total}} created"
+    },
+    "billing": {
+      "title": "Payment completed",
+      "desc": "Plan {{plan}} activated"
+    },
+    "aiError": {
+      "title": "AI error",
+      "desc": "Failed to process the message"
+    },
+    "sessionEnded": {
+      "title": "Session ended",
+      "desc": "Please sign in again for security"
+    },
+    "cleared": "Notifications cleared"
+  },
+  "ai": {
+    "title": "AI Assistant",
+    "subtitle": "Answers questions about business and logistics",
+    "guardrail": "Business only",
+    "placeholder": "Type your question…",
+    "empty": {
+      "title": "How can I help?",
+      "desc": "Ask about orders, prices, routes and freight"
+    },
+    "quick1": "How do I start route optimization?",
+    "quick2": "Calculate a freight cost",
+    "quick3": "Question: what's the best CRM?",
+    "demoNote": "AI stays on-topic: without a Gemini key a local reply is used."
+  },
+  "log": {
+    "title": "EM Techno Logistics",
+    "subtitle": "Route optimization, freight quotes and reports",
+    "badge": "Logistics",
+    "route": {
+      "title": "Route optimizer",
+      "desc": "Pick cities — we compute the shortest route out of Tashkent",
+      "total": "Total distance:",
+      "empty": "Select at least one city",
+      "pdf": "Generate PDF report"
+    },
+    "cargo": {
+      "title": "Cargo calculator",
+      "desc": "Estimate freight cost by weight, volume and distance",
+      "weight": "Weight (kg)",
+      "volume": "Volume (m³)",
+      "distance": "Distance (km)",
+      "base": "Base rate (km)",
+      "weightFactor": "Weight factor",
+      "volumeFactor": "Volume factor",
+      "total": "Total",
+      "eta": "Estimated time",
+      "hours": "h"
+    },
+    "demoNote": "Rates are an approximation close to EM Techno tariffs."
+  },
+  "cmd": {
+    "placeholder": "Search command or page…",
+    "empty": "No results",
+    "groups": {
+      "navigate": "Navigation",
+      "actions": "Actions"
+    },
+    "newOrder": "Open order converter",
+    "report": "Generate and export report",
+    "switchWorkspace": "Switch workspace",
+    "toggleTheme": "Toggle theme",
+    "gotoBilling": "Go to billing",
+    "toggleLang": "Change language ({{lang}})"
+  },
+  "common2": {
+    "brandName": "Bizflow"
+  },
+  "app": {
+    "loading": "Loading…"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "common": {
+    "action": {
+      "save": "Saqlash",
+      "cancel": "Bekor qilish",
+      "continue": "Davom etish",
+      "close": "Yopish",
+      "confirm": "Tasdiqlash",
+      "back": "Orqaga",
+      "retry": "Qayta urinish",
+      "copy": "Nusxalash",
+      "copied": "Nusxalandi",
+      "download": "Yuklab olish",
+      "preview": "Ko‘rish",
+      "delete": "O‘chirish",
+      "resend": "Qayta yuborish",
+      "send": "Yuborish",
+      "clear": "Tozalash",
+      "export": "Eksport",
+      "more": "Yana",
+      "all": "Hammasi",
+      "edit": "Tahrirlash",
+      "view": "Ko‘rish",
+      "go": "O‘tish",
+      "processing": "Javob kutilmoqda"
+    },
+    "status": {
+      "confirmed": "Tasdiqlangan",
+      "processing": "Jarayonda",
+      "shipped": "Yuborilgan",
+      "delivered": "Yetkazilgan"
+    },
+    "emptyTitle": "Hozircha maʼlumot yo‘q",
+    "notFound": "Hech narsa topilmadi",
+    "currency": "Valyuta"
+  },
+  "nav": {
+    "dashboard": "Boshqaruv paneli",
+    "orders": "Buyurtmalar",
+    "converter": "Buyurtma konverteri",
+    "assistant": "AI Yordamchi",
+    "logistics": "Logistika",
+    "billing": "Tariflar",
+    "settings": "Sozlamalar",
+    "newOrder": "Yangi buyurtma",
+    "workspace": "Ish maydoni",
+    "cmdHint": "Buyruqlar",
+    "upgrade": "Tarifni yangilash",
+    "online": "AI onlayn",
+    "toggleTheme": "Mavzuni almashtirish"
+  },
+  "workspace": {
+    "personal": "Shaxsiy akkaunt",
+    "company": "Kompaniya",
+    "switchWorkspace": "Ish maydonini almashtirish",
+    "addWorkspace": "Yangi ish maydoni",
+    "workspaces": "Ish maydonlari"
+  },
+  "auth": {
+    "login": {
+      "title": "Tizimga kirish",
+      "subtitle": "Bizflow hisobingizga kiring",
+      "email": "Email",
+      "password": "Parol",
+      "remember": "Eslab qolish",
+      "signIn": "Kirish",
+      "noAccount": "Hisobingiz yo‘qmi?",
+      "signUp": "Ro‘yxatdan o‘tish",
+      "sessionExpired": "Seans muddati tugagan. Iltimos, qayta kiring."
+    },
+    "register": {
+      "title": "Hisob yaratish",
+      "subtitle": "Bir daqiqada boshlang",
+      "login": "Login",
+      "email": "Email",
+      "password": "Parol",
+      "signUp": "Ro‘yxatdan o‘tish",
+      "haveAccount": "Hisobingiz bormi?",
+      "signIn": "Kirish"
+    },
+    "verify": {
+      "title": "Email tasdiqlash",
+      "subtitleRegister": "Emailingizga 6 xonali kod yubordik",
+      "subtitleLogin": "Tizimga kirish uchun kodni kiriting",
+      "code": "Tekshirish kodi",
+      "verify": "Kodni tasdiqlash",
+      "resend": "Kodni qayta yuborish",
+      "resendIn": "Qayta yuborish: {{sec}} soniya",
+      "demoNotice": "Namoyish rejimi: kod — {{code}}. Haqiqiy ishda kod emailga yuboriladi.",
+      "tapToFill": "Qo‘yish uchun bosing",
+      "back": "Orqaga qaytish",
+      "sendCode": "Kod yuborish"
+    },
+    "errors": {
+      "required": "Maydon to‘ldirilishi shart",
+      "invalidEmail": "Email noto‘g‘ri",
+      "weakPassword": "Parol kamida 6 ta belgidan iborat bo‘lishi kerak",
+      "emailTaken": "Bu email allaqachon ro‘yxatdan o‘tgan",
+      "notFound": "Foydalanuvchi topilmadi",
+      "invalidCredentials": "Login yoki parol noto‘g‘ri",
+      "notVerified": "Email hali tasdiqlanmagan",
+      "invalidCode": "Kod noto‘g‘ri",
+      "expiredCode": "Kod muddati tugagan. Qayta yuboring",
+      "tooManyAttempts": "Juda ko‘p urinish. Keyinroq qaytaring",
+      "otpSent": "Kod yuborildi",
+      "generic": "Xatolik yuz berdi. Iltimos, qayta urining",
+      "unauthorized": "Avtorizatsiya talab qilinadi",
+      "sessionEnded": "Seans tugadi"
+    },
+    "signOut": "Chiqish",
+    "demoMode": "Namoyish rejimi"
+  },
+  "dash": {
+    "hello": "Xayrli kun, {{name}}",
+    "subtitle": "Ish maydoni ko‘rsatkichlari haqiqiy buyurtmalar asosida hisoblanadi",
+    "kpi": {
+      "revenue": "Daromad",
+      "orders": "Buyurtmalar",
+      "timeSaved": "Tejalgan vaqt",
+      "avgOrder": "O‘rtacha buyurtma"
+    },
+    "period30": "Oxirgi 30 kun",
+    "noOrders": {
+      "title": "Buyurtmalar hali yo‘q",
+      "desc": "Konverterda xabarni qayta ishlang yoki chat orqali buyurtma yarating — panel ko‘rsatkichlari darhol yangilanadi.",
+      "cta": "Birinchi buyurtmani yaratish"
+    },
+    "recentOrders": "So‘nggi buyurtmalar",
+    "viewAll": "Barchasini ko‘rish",
+    "quickActions": "Tezkor amallar",
+    "generateReport": "Hisobot yaratish",
+    "gotoBilling": "Tarifni yangilash",
+    "tip": {
+      "title": "Mahsulot haqida",
+      "body": "Bizflow bo‘sh joyda ishlaydi — tarmoqqa ulanmasdan ham Telegram, WhatsApp va ovozli xabarlarni tahlil qiladi."
+    },
+    "noDataValue": "—",
+    "ordersCount": "ta buyurtma",
+    "hoursUnit": "soat"
+  },
+  "orders": {
+    "title": "Buyurtmalar",
+    "subtitle": "Barcha kanallardan yig‘ilgan buyurtmalar",
+    "exportCsv": "CSV eksport",
+    "exportedCsv": "CSV fayl tayyorlandi",
+    "empty": {
+      "title": "Buyurtmalar bo‘limi bo‘sh",
+      "desc": "Converterda xabarni qayta ishlaganingizdan so‘ng yoki chat-bridge orqali buyurtma yaratganingizdan keyin u shu yerda paydo bo‘ladi.",
+      "cta": "Konverterga o‘tish"
+    },
+    "col": {
+      "invoice": "Hisob-faktura",
+      "customer": "Mijoz",
+      "items": "Tovarlar",
+      "source": "Kanal",
+      "total": "Summa",
+      "status": "Holat",
+      "createdAt": "Vaqt",
+      "actions": "Amallar"
+    },
+    "chat": {
+      "title": "Mijoz chati (bridge)",
+      "desc": "Telegram/WhatsApp simulyatsiyasi — yuborgan xabaringiz buyurtmaga aylanadi",
+      "placeholder": "Mijoz xabarini yozing…",
+      "quick1": "3 qop Premium Coffee, Samarkand, +998934567890",
+      "quick2": "2 Dried Figs + 4 Green Tea, Fergana",
+      "quick3": "Pomegranate Juice narxi qancha?"
+    },
+    "channel": {
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "voice": "Ovozli",
+      "manual": "Qo‘lda"
+    },
+    "statusFilter": "Holati:",
+    "statusAll": "Barcha holatlar",
+    "search": "Mijoz, telefon yoki raqam bo‘yicha qidirish…",
+    "actions": "Amallar",
+    "more": "boshqa",
+    "remove": "O‘chirish",
+    "removed": "Buyurtma o‘chirildi",
+    "filters": {
+      "all": "Hammasi",
+      "confirmed": "Tasdiqlangan",
+      "processing": "Jarayonda",
+      "shipped": "Yuborilgan",
+      "delivered": "Yetkazilgan"
+    }
+  },
+  "conv": {
+    "title": "Buyurtma konverteri",
+    "subtitle": "Har qanday tildagi xabarni tuzilgan buyurtmaga aylantiring",
+    "message": "Mijoz xabari",
+    "placeholder": "Xabarni shu yerga tashlang… Masalan: «Assalomu alaykum! 5 jar Organic Honey, Chorsu. +998901234567»",
+    "engineLocal": "Mahalliy AI",
+    "engineLlm": "LLM API",
+    "processing": "Tahlil qilinmoqda…",
+    "process": "AI bilan qayta ishlash",
+    "clear": "Tozalash",
+    "samples": "Namunalar",
+    "steps": {
+      "1": "Xabar maqsadini tahlil qilish",
+      "2": "Tovarlar va miqdorlarni ajratish",
+      "3": "Manzilni aniqlash",
+      "4": "Aloqa raqamini aniqlash",
+      "5": "Hisob-kitob va jami"
+    },
+    "empty": {
+      "title": "Natija kutilmoqda",
+      "desc": "Eksport va CRM yozuvlari uchun xabarni qayta ishlang"
+    },
+    "orderReady": "Buyurtma tayyor",
+    "savedToOrders": "Buyurtmalarga saqlandi",
+    "field": {
+      "customer": "Mijoz",
+      "phone": "Telefon",
+      "location": "Manzil",
+      "source": "Kanal",
+      "confidence": "Ishonch darajasi",
+      "total": "Jami"
+    },
+    "download": "PDF hisob-faktura",
+    "preview": "Ko‘rish",
+    "copyJson": "JSON nusxasi",
+    "jsonCopied": "JSON nusxalandi",
+    "llmFallback": "AI_API_KEY sozlanmagan — mahalliy AI ishlatilmoqda",
+    "llmModel": "Jonli LLM orqali: {{model}}",
+    "processor": "Tahlil mexanizmi",
+    "assistantReply": {
+      "title": "AI javob berdi"
+    },
+    "shareWhatsApp": "WhatsApp orqali",
+    "shareTelegram": "Telegram orqali"
+  },
+  "bill": {
+    "title": "Tariflar va to‘lovlar",
+    "subtitle": "To‘lov provayderlari: Payme, Click, Paynet (UZS) va Stripe, Google Play (USD)",
+    "currency": "Valyuta",
+    "perMonth": "/oyiga",
+    "current": "Joriy tarif",
+    "choose": "Tanlash",
+    "plans": {
+      "starter": "Starter",
+      "growth": "Growth",
+      "scale": "Scale",
+      "enterprise": "Korxona"
+    },
+    "popular": "Ommabop",
+    "feat": {
+      "orders200": "200 ta buyurtma/oy",
+      "orders2k": "2 000 ta buyurtma/oy",
+      "orders5k": "5 000 ta buyurtma/oy",
+      "ordersU": "Cheksiz buyurtmalar",
+      "team3": "Jamoa (3 kishi)",
+      "team10": "Jamoa (10 kishi)",
+      "teamU": "Cheksiz jamoa",
+      "invoices": "PDF hisob-fakturalar",
+      "analytics": "Asosiy analitika",
+      "reports": "To‘liq hisobotlar",
+      "api": "Ochiq API",
+      "sla": "SLA kafolati",
+      "priority": "Prioritet qo‘llab-quvvatlash",
+      "brands": "Ko‘p brendlar"
+    },
+    "oneTime": {
+      "title": "Bir martalik to‘lov",
+      "desc": "Balansni istalgan miqdorda to‘ldiring — Payme, Click yoki Stripe orqali",
+      "topUp": "Balansni to‘ldirish",
+      "amount": "Miqdor"
+    },
+    "checkout": {
+      "title": "To‘lovni yakunlash",
+      "plan": "Tarif",
+      "amount": "To‘lanadigan summa",
+      "provider": "To‘lov usuli",
+      "payNow": "To‘langan",
+      "processing": "To‘lov amalga oshirilmoqda…",
+      "success": {
+        "title": "To‘lov muvaqqaqiyatli",
+        "desc": "Tarifingiz faollashtirildi. Eslatma: bu namoyish rejimida, haqiqiy to‘lov provayder API orqali amalga oshiriladi."
+      },
+      "done": "Tayyor"
+    },
+    "provider": {
+      "payme": "Payme",
+      "click": "Click",
+      "paynet": "Paynet",
+      "stripe": "Stripe",
+      "googleplay": "Google Play"
+    },
+    "trial": {
+      "title": "7 kunlik bepul sinov",
+      "active": "Sinov muddati: {{days}} kun qoldi",
+      "inactive": "Karta ulash orqali 7 kunlik bepul sinovni boshlang",
+      "start": "Sinovni boshlash (karta ulash)",
+      "reactivate": "Sinovni davom ettirish",
+      "expiredTitle": "Sinov muddati tugadi",
+      "expiredDesc": "Funktsiyalardan foydalanish uchun tarifni tanlang",
+      "choosePlan": "Tarifni tanlash"
+    },
+    "vip": {
+      "title": "VIP akkaunt",
+      "desc": "Umr bo‘yi cheksiz foydalanish — sinov va to‘lov talab qilinmaydi"
+    },
+    "gate": {
+      "title": "Tarif talab qilinadi",
+      "desc": "Sinov muddati tugadi. Barcha funksiyalardan foydalanish uchun tarifga o‘ting",
+      "blockedTrial": "Sinov tugagan, tarifni yangilang",
+      "choosePlan": "Tariflar sahifasi",
+      "demoBadge": "demo",
+      "help": "Xohlagan tarif faollashtirilgach, kirish tiklanishi mumkin"
+    },
+    "banner": {
+      "trial": "Sinov muddati: {{days}} kun qoldi",
+      "prompt": "7 kunlik bepul sinov sizni kutmoqda",
+      "renew": "Sinovni davom ettirish",
+      "reactivate": "Sinovni faollashtirish",
+      "useTrial": "Sinovni boshlash"
+    },
+    "history": {
+      "title": "To‘lovlar tarixi",
+      "empty": "Hozircha to‘lovlar yo‘q",
+      "charge": "Obuna to‘lovi"
+    },
+    "demoNote": "Namoyish rejimi: to‘lov haqiqiy hisobdan yechilmaydi."
+  },
+  "set": {
+    "title": "Sozlamalar",
+    "subtitle": "Profil, ko‘rinish va preferensiyalar",
+    "profile": "Profil",
+    "name": "Ism",
+    "login": "Login",
+    "email": "Email",
+    "appearance": "Tashqi ko‘rinish",
+    "theme": "Mavzu",
+    "light": "Yorug‘",
+    "dark": "Qorong‘i",
+    "language": "Til",
+    "currencyDefault": "Asosiy valyuta",
+    "danger": "Xavfli hudud",
+    "clearData": "Barcha demo-ma'lumotlarni tozalash",
+    "cleared": "Ma'lumotlar tozalandi",
+    "saved": "Sozlamalar saqlandi",
+    "general": "Umumiy"
+  },
+  "notif": {
+    "title": "Bildirishnomalar",
+    "markAll": "Barchasini o‘qilgan deb belgilash",
+    "new": "Yangi",
+    "clearAll": "Hammasini tozalash",
+    "empty": "Bildirishnomalar yo‘q",
+    "exportPdf": {
+      "title": "PDF yuklab olindi",
+      "desc": "{{invoice}} hisob-fakturasi export qilindi"
+    },
+    "orderParsed": {
+      "title": "Yangi buyurtma",
+      "desc": "{{invoice}} — {{total}} qiymatida qabul qilindi"
+    },
+    "billing": {
+      "title": "To‘lov amalga oshdi",
+      "desc": "{{plan}} tarifi aktivlashdi"
+    },
+    "aiError": {
+      "title": "AI xatosi",
+      "desc": "Xabarni qayta ishlashda xatolik"
+    },
+    "sessionEnded": {
+      "title": "Seans tugadi",
+      "desc": "Xavfsizlik uchun qayta kiring"
+    },
+    "cleared": "Bildirishnomalar tozalandi"
+  },
+  "ai": {
+    "title": "AI Yordamchi",
+    "subtitle": "Biznes va logistika bo‘yicha savollarga javob beradi",
+    "guardrail": "Faqat biznes",
+    "placeholder": "Savolingizni yozing…",
+    "empty": {
+      "title": "Qanday yordam bera olaman?",
+      "desc": "Buyurtmalar, narxlar, marshrutlar va yuk tashish bo‘yicha so‘rang"
+    },
+    "quick1": "Sayohatni optimallashtirishni qanday boshlash mumkin?",
+    "quick2": "Yuk tashish narxini hisoblab bering",
+    "quick3": "Savolingiz: eng yaxshi CRM nima?",
+    "demoNote": "AI foydali javob bergani haqida: bu demo rejim, Gemini API ulanmagan bo‘lsa, mahalliy javob ham ishlaydi."
+  },
+  "log": {
+    "title": "EM Techno Logistics",
+    "subtitle": "Marshrutlarni optimallashtirish, yuk tashish hisob-kitobi va hisobotlar",
+    "badge": "Logistika",
+    "route": {
+      "title": "Marshrut optimizatori",
+      "desc": "Toshkentdan chiqish bilan shaharlarni tanlang — tizim eng qisqa yo‘nalishni hisoblab beradi",
+      "total": "Umumiy masofa:",
+      "empty": "Kamida bitta shaharni tanlang",
+      "pdf": "PDF hisobot yaratish"
+    },
+    "cargo": {
+      "title": "Yuk kalkulyatori",
+      "desc": "Vazn, hajm va masofa bo‘yicha yuk tashish narxini hisoblang",
+      "weight": "Vazn (kg)",
+      "volume": "Hajm (m³)",
+      "distance": "Masofa (km)",
+      "base": "Asosiy tarif (km)",
+      "weightFactor": "Vazn omili",
+      "volumeFactor": "Hajm omili",
+      "total": "Jami",
+      "eta": "Taxminiy vaqt",
+      "hours": "soat"
+    },
+    "demoNote": "Narxlar EM Techno tariflariga yaqinlashtirilgan bahodir."
+  },
+  "cmd": {
+    "placeholder": "Buyruq yoki sahifa qidiring…",
+    "empty": "Natija topilmadi",
+    "groups": {
+      "navigate": "Navigatsiya",
+      "actions": "Amallar"
+    },
+    "newOrder": "Buyurtma konverterini ochish",
+    "report": "Hisobot yaratish va eksport",
+    "switchWorkspace": "Ish maydonini almashtirish",
+    "toggleTheme": "Mavzuni almashtirish",
+    "gotoBilling": "Tariflar sahifasiga o‘tish",
+    "toggleLang": "Tilni almashtirish ({{lang}})"
+  },
+  "common2": {
+    "brandName": "Bizflow"
+  },
+  "app": {
+    "loading": "Yuklanmoqda…"
+  }
+}
